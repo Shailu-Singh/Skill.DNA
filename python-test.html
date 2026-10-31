@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Python Test | SkillDNA</title>
+    <link rel="stylesheet" href="python-test.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">Skill<span>DNA</span></a>
+        <a href="index.html" class="back-link">← Back to Skills</a>
+    </nav>
+
+    <main class="test-container">
+
+        <div class="test-heading">
+            <span class="tag">SKILL ASSESSMENT</span>
+            <h1>Python <span>Knowledge Test</span></h1>
+            <p>Test your Python knowledge and discover your skill level.</p>
+        </div>
+
+        <section class="test-card" id="quiz">
+
+            <div class="question-info">
+                <span id="question-number">Question 1 of 10</span>
+                <span id="progress-text">10% completed</span>
+            </div>
+
+            <div class="progress-track">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+
+            <h2 id="question">Loading question...</h2>
+
+            <div id="options" class="options"></div>
+
+            <p id="error-message" class="error-message"></p>
+
+            <div class="button-row">
+                <button id="next-button" class="next-button">
+                    Next Question →
+                </button>
+            </div>
+
+        </section>
+
+        <section id="result" class="result-card" hidden>
+            <span class="tag">ASSESSMENT COMPLETED</span>
+            <h2>Your Python Test Result</h2>
+
+            <div class="score-circle">
+                <span id="score">0/10</span>
+                <small id="percentage">0%</small>
+            </div>
+
+            <p id="result-message"></p>
+
+            <div class="result-stats">
+                <div>
+                    <strong id="correct-count">0</strong>
+                    <span>Correct</span>
+                </div>
+
+                <div>
+                    <strong id="wrong-count">0</strong>
+                    <span>Incorrect</span>
+                </div>
+            </div>
+
+            <h3 class="review-heading">Answer Review</h3>
+            <div id="review-list"></div>
+
+            <button id="restart-button" class="next-button">
+                Retake Test ↻
+            </button>
+        </section>
+
+    </main>
+
+    <script src="python-test.js"></script>
+</body>
+</html>
+
+</body>
+</html>
